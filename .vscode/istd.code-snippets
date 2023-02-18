@@ -25,5 +25,35 @@
             "$2"
 		],
 		"description": "common header files for c++ algorithm development"
+	},
+
+    "generate starter": {
+		"scope": "cpp",
+		"prefix": "mcpp",
+		"body": [
+			"int main(int argc, char const *argv[])",
+            "{",
+            "    $0"    ,
+            "    return 0;",
+            "}"
+		],
+		"description": "common header files for c++ algorithm development"
+	},
+
+    "generate fast starter": {
+		"scope": "cpp",
+		"prefix": "fast",
+		"body": [
+            "#include \"ccomm.h\"",
+            "",
+			"int main(int argc, char const *argv[])",
+            "{",
+            "    $0"    ,
+            "    return 0;",
+            "}"
+		],
+		"description": "common header files for c++ algorithm development"
 	}
+
+    
 }
